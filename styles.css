@@ -3,6 +3,7 @@ body {
   flex-direction: column;
   font-family:'Trebuchet MS';
   height: 100vh;
+  margin: 0;
 
 }
 
@@ -33,7 +34,6 @@ li {
 a {
   text-decoration: none;
   color: white;
-  
 
 }
 
@@ -83,4 +83,109 @@ a {
 .sentence {
   font-size: 12px;
   font-weight: 100;
+}
+
+.child-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.random {
+  font-weight: 900;
+  font-size: 30px;
+  padding: 30px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 40px;
+
+}
+
+.icon img {
+  max-height: 200px;
+  max-width: 150px;
+}
+
+.text {
+  max-width: 180px;
+}
+
+.Brown {
+  margin-top: 60px;
+}
+
+.child-3{
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.child-3-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+p {
+  max-width: 600px;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.Thor {
+  align-self: flex-end;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  background-color: #353e4b;
+  color: white;
+  gap: 5px;
+}
+
+.child-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px;
+}
+
+.blue-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #3b82f6;
+  padding: 40px 80px;
+  color: white;
+  border-radius: 5px;
+}
+
+.Sign {
+  background-color: #3b82f6;
+  border-radius: 5px;
+  padding: 5px 20px;
+  border-style: solid;
+  border-color: white;
+  
+}
+
+.call {
+  font-size: 25px;
+  font-weight: 500;
 }
